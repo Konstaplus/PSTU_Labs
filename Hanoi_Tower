@@ -2,7 +2,7 @@
  
 using namespace std;
  
-void hanoi_towers(int quantity, int from, int to, int buf_peg) // 1: Кол-во колец. 2: 1 из какого стержня 3: куда 4 : Буферный стержень
+void hanoi_towers(int quantity, int from, int to, int buf_peg) // 1: Кол-во дисков. 2: Из какого столбика 3: Куда 4 : Буферный столбик
 
 	if (quantity != 0)
 	{
